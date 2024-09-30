@@ -12,7 +12,7 @@ button = KeyboardButton(text="Рассчитать")
 button2 = KeyboardButton(text="Купить")
 kb.row(button, button2)
 
-api = "5412904149:AAGXoOUqrWssdivh_vpHqVINY1jA1bYxYD8"
+api = ""
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 kb_2 = InlineKeyboardMarkup()
